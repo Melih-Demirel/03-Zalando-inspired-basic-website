@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300&display=swap');
+* {
+    color: #262a31;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.customLabel {
+    font-size: 1rem;
+    font-weight: 600;
+    display: block; 
+}
+
+.customInput {
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid #414040;
+    padding: .5rem 1rem;
+}
+
+.customInput::placeholder {
+    font-size: 1rem;
+    color: #a5a3a3;
+}
+
+.customPBreakWord {
+    word-wrap:break-word;
+}
+
+.customButton {
+    min-width: 100%;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 3px solid #111316;
+}
+
+.customHomeButton {
+    width: 18em;
+    height: 4em;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 3px solid #111316;
+}
+
+.customRef {
+    color: rgb(7, 10, 160);
+    font-size: 0.9rem;
+}
+
+.customRef:hover {
+    text-decoration: underline;
+}
+
+.customRef:not(:hover) {
+    text-decoration: none;
+}
+
+.customBorderDashed {
+    border-style: dashed !important;
+}
+
+.customButtonOnTopRight {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
