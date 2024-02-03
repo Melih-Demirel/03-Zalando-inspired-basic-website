@@ -1,4 +1,5 @@
-# eCommerce website using Codeigniter framework, Docker en MySql
+# eCommerce website
+using Codeigniter framework, Docker en MySql
 ## Installation
 
 Run following commands:
